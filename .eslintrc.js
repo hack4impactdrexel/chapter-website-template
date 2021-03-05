@@ -18,6 +18,6 @@ module.exports = {
         aspects: ['invalidHref', 'preferButton'],
       },
     ],
-    'prettier/prettier': ['error', {}, { usePrettierrc: true }],
+    'prettier/prettier': ['error', { endOfLine: 'auto' }, { usePrettierrc: true }],
   },
 };

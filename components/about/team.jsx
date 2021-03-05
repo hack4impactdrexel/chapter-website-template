@@ -20,7 +20,7 @@ function Team({ directorQuotes, members, alumni }) {
             />
           ))}
         </Row>
-        {Object.entries(alumni).length != 0 && <h2 className="p-5 m-3 center"> Alumni </h2>}
+        {Object.entries(alumni).length !== 0 && <h2 className="p-5 m-3 center"> Alumni </h2>}
         <Row>
           {alumni.map((member) => (
             <MemberIcon
